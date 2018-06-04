@@ -6,6 +6,17 @@
             {
                 "ssr": true
             }
-        ]
+        ],
+        [
+            "module-resolver",
+            {
+              "root": [
+                "./"
+              ],
+              "alias": {
+                "infra": "./utils"
+              }
+            }
+          ]
     ]
 }
